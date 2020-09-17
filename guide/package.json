@@ -1,0 +1,19 @@
+{
+  "name": "guide",
+  "version": "0.0.1",
+  "description": "little guide for my friends",
+  "main": "index.js",
+  "authors": {
+    "name": "nicole",
+    "email": "coleghollant@gmail.com"
+  },
+  "repository": "git@github.com:colehollant/web-basics.git",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

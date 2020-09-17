@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <div id="app">
+    <p>Message: {{message}}</p>
+    <input type="text" v-model="message">
+    <p>Count: {{count}}</p>
+    <button @click="increment">Increment</button>
+  </div>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        message: "this is some message",
+        count: 0
+      },
+      methods: {
+        increment() {
+          this.count++
+        }
+      }
+    })
+  </script>
+</body>
+</html>
