@@ -4,6 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
+  dest: 'public',
   title: 'Fullstack Web Guide',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
